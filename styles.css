@@ -12,6 +12,7 @@ body {
     background-attachment: fixed;
     font-weight: 400;
     padding-bottom: 60px;
+    text-align: center;
     }
 
 a {
@@ -20,11 +21,12 @@ a {
 }
 
 a:hover {
-    color: #ffff00; /* red */
+    color: #ffff00;
 }
 
 header {
     text-shadow: .5px .5px .5px red;
+    text-align: center;
 }
 
 header a {
@@ -35,15 +37,40 @@ h1 {
     font-weight: 300;
 }
 
+.header-image{
+    width: 45px;
+    height: 44px;
+}
 
 nav ul  {
-    align-items: baseline;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+section#leftColumn {
+    float: left;
+    width: 40%;
+    margin: auto;
+}
+
+section#rightColumn {
+    float: right;
+    width: 40%;
+    margin: auto;
+}
+
+section#centeredColumn {
+    width: 60%;
+    margin: auto;
 }
 
 section ul {
     list-style: decimal;
-
 }
 
 footer {
